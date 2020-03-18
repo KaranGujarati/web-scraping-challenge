@@ -11,7 +11,7 @@ import scrape_mars
 #################################################
 # Database Setup
 #################################################
-mongo = PyMongo(app, uri="mongodb://localhost:27017/mars_info")
+mongo = pymongo(app, uri="mongodb://localhost:27017/mars_info")
 
 #################################################
 # Flask Setup
